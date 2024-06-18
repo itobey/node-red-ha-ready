@@ -1,4 +1,4 @@
-FROM nodered/node-red:2.2.2
+FROM nodered/node-red:3.1.11
 RUN npm install node-red-contrib-actionflows \
     node-red-contrib-home-assistant-websocket \
     node-red-contrib-stoptimer \
